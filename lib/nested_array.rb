@@ -16,14 +16,16 @@ CONVENTIONAL_PRODUCE = [
   "Eggplant"
 ]
 
+produce = [
+  ORGANIC_PRODUCE,
+  CONVENTIONAL_PRODUCE
+]
 def assembled_matrix
-  [
-    ORGANIC_PRODUCE,
-    CONVENTIONAL_PRODUCE
-
-  ]
-
+  puts produce
+  
 end
+
+assembled_matrix
   # Build an array that contains both of the above arrays
   # This matrix will represent a produce storage room
   # Organic standards require that organic products be stored ABOVE conventional, not the other way around
