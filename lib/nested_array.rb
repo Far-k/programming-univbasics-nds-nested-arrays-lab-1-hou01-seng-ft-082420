@@ -20,7 +20,7 @@ CONVENTIONAL_PRODUCE = [
 
 
 def assembled_matrix
-  
+
 
 end
 
