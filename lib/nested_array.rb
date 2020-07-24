@@ -18,7 +18,7 @@ CONVENTIONAL_PRODUCE = [
 
 def assembled_matrix
   [
-    ORGANIC_PRODUCE = ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"]
+    ORGANIC_PRODUCE = ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"],
 
     CONVENTIONAL_PRODUCE = ["Grapefruit", "Pineapple", "Oranges", "Watermelon", "Eggplant"]
 
@@ -34,7 +34,7 @@ def sorted_matrix
 
   [
 
-    ORGANIC_PRODUCE = ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"]
+    ORGANIC_PRODUCE = ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"],
      ORGANIC_PRODUCE.sort
 
      CONVENTIONAL_PRODUCE = ["Grapefruit", "Pineapple", "Oranges", "Watermelon", "Eggplant"]
