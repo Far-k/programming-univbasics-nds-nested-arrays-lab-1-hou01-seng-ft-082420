@@ -46,13 +46,7 @@ def sorted_matrix
 end
 
 def matrix_lookup(matrix, row, column)
-  matrix_lookup = [
-    ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"]
-    ["Grapefruit", "Pineapple", "Oranges", "Watermelon", "Eggplant"]
-
-  ]
-  matrix_lookup[0][3]
-  puts matrix_lookup
+  
   # Given any matrix (array of arrays), a row index and a column index,
   # Return the matrix's content at that row and and column
 end
