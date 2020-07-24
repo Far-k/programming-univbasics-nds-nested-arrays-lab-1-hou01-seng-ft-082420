@@ -32,11 +32,11 @@ end
   # Organic standards require that organic products be stored ABOVE conventional, not the other way around
   # Make sure conventional produce is first, on the 'zeroth' / 'bottom' she
 
-=begin
+
 def sorted_matrix
 
   [
-    ORGANIC_PRODUCE.sort
+    ORGANIC_PRODUCE.sort,
     CONVENTIONAL_PRODUCE.sort
   ]
   # Using Array literal syntax only, build another nested array that
@@ -70,4 +70,3 @@ def matrix_update(matrix, row, column, new_value)
   # Update the matrix location at that row and column to have the value of new_value
   # Return the updated matrix
 end
-=end
