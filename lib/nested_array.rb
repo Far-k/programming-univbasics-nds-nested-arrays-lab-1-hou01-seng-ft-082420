@@ -22,7 +22,7 @@ produce = [
 ]
 def assembled_matrix
   puts produce
-  
+
 end
 
 assembled_matrix
