@@ -58,13 +58,6 @@ def matrix_lookup(matrix, row, column)
 end
 
 def matrix_update(matrix, row, column, new_value)
-  matrix_update = [
-    ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"]
-    ["Grapefruit", "Pineapple", "Oranges", "Watermelon", "Eggplant"]
-
-  ]
-  matrix_update[1][4] = "Apples"
-  puts matrix_update
 
 
   # Given any matrix (array of arrays), a row index and a column index,
